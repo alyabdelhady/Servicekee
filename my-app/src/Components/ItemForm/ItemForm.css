@@ -1,0 +1,36 @@
+.category-name {
+  padding: 5px 5px;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 2px;
+}
+
+.category-name:focus {
+  border: 2px solid rgb(16, 88, 16);
+}
+
+.category-description {
+  padding: 14px 5px;
+  margin-bottom: -20px;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 2px;
+}
+.category-description:focus {
+  border: 2px solid rgb(16, 88, 16);
+}
+
+@media screen and (max-width: 768px) {
+  .category-name,
+  .category-description {
+    margin: 15px 0;
+    width: 80%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-success {
+    width: 40%;
+  }
+}

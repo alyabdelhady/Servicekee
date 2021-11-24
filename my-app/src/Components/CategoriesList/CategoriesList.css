@@ -1,0 +1,19 @@
+.category-row {
+  display: flex;
+  margin: 10px 0 0 0;
+  height: 45px;
+  background-color: rgb(134, 235, 193);
+  border: 2px solid rgb(96, 185, 170);
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.category-row .fa-bars {
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.category-list {
+  padding: 30px 0 0 0;
+  height: 90vh;
+}

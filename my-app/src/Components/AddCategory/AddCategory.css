@@ -1,0 +1,16 @@
+.add-category {
+  height: 30vh;
+  background-color: white;
+  border: 2px solid rgb(99, 97, 97);
+  border-radius: 5px;
+}
+
+.add-category h5 {
+  margin: 40px 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .add-category {
+    height: 45vh;
+  }
+}

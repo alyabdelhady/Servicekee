@@ -1,0 +1,27 @@
+.category-info {
+  width: 95%;
+  background-color: rgb(236, 235, 235);
+}
+
+.category-child {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.category-child h5,
+.category-child h6 {
+  padding: 2px 0;
+}
+.category-child h5 {
+  color: rgb(87, 85, 85);
+}
+
+.section-movies {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .category-child {
+    width: 55%;
+  }
+}

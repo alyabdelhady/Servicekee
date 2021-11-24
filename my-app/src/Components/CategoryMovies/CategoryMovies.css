@@ -1,0 +1,53 @@
+.movies-row {
+  display: flex;
+  margin: 10px 0 0 0;
+  height: 45px;
+  background-color: rgb(180, 206, 235);
+  border: 2px solid rgb(80, 152, 235);
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.movies-row .fa-bars {
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.movies-list {
+  margin-top: 40px;
+}
+
+.movies-row-child {
+  display: flex;
+  align-items: center;
+}
+
+.movies-row button {
+  margin: 0 10px;
+  padding: 2px 35px;
+}
+
+.edit-button {
+  background-color: rgb(238, 158, 11);
+  color: white;
+
+  border: 2px solid rgb(187, 135, 40);
+  border-radius: 4px;
+}
+
+.delet-button {
+  background-color: rgb(184, 54, 31);
+  color: white;
+  border: 2px solid rgb(170, 50, 29);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .movies-row-child h5 {
+    font-size: 14px;
+  }
+  .movies-row button {
+    margin: 0 10px;
+    padding: 1px 4px;
+  }
+}

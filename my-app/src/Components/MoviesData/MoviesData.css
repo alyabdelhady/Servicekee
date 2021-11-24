@@ -1,0 +1,12 @@
+.movie-data {
+  background-color: white;
+  margin-top: 40px;
+  border: 2px solid rgb(99, 97, 97);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-data {
+    height: 115vh;
+  }
+}
